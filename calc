@@ -1,0 +1,40 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int x;
+
+    int y;
+
+    char a;
+
+    cout << "Welcome to Omar Calculator \n\n";
+    cout << "Please Enter Your Operator \n\n";
+    
+    
+    cin >> x >> a >> y;
+
+    switch ( a )
+    {
+    case '+':
+        cout << x+y;
+        break;
+    case '-':
+        cout << x-y;
+        break;
+    case '*':
+        cout << x*y;
+        break;
+    case '/':
+        cout << x/y;
+        break;
+    default:
+        cout << "Syntax Error";
+        break;
+    }
+
+    return 0;
+}
